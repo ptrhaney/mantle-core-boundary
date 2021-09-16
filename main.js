@@ -91,7 +91,7 @@ require([
   const exaggeratedElevation = {
     mode: "absolute-height",
     featureExpressionInfo: {
-      expression: "-$feature.depth * 6"
+      expression: "-$feature.depth * 1"
     },
     unit: "kilometers"
   };
